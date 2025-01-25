@@ -1,6 +1,6 @@
 # BigEvent
 
- A content management system, a Vue.js and node.js-based content management system for managing users, articles, and categories, featuring authentication, CRUD operations, and dynamic data rendering to streamline backend management.
+ A content management system, a Vue.js and node.js-based fullstack content management system for managing users, articles, and categories, featuring authentication, CRUD operations, and dynamic data rendering to streamline backend management.
 
 ## Recommended IDE Setup
 
