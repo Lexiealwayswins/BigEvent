@@ -1,6 +1,6 @@
 # BigEvent
 
- A content management system, a Vue.js-based content management system for managing users, articles, and categories, featuring authentication, CRUD operations, and dynamic data rendering to streamline backend management.
+ A Vue.js and node.js-based fullstack content management system for managing users, articles, and categories, featuring authentication, CRUD operations, and dynamic data rendering to streamline backend management.
 
 ## Recommended IDE Setup
 
@@ -32,47 +32,47 @@ pnpm build
 ### 1. Register and Login
 
 ##### Register with Authentication
-![](./assets/register.png)
+![](./frontend/assets/register.png)
 
 ##### Login with Authentication
-![](./assets/login.png)
+![](./frontend/assets/login.png)
 
 ### 2. Enter home page after login
 
 ##### Show username and avater after login
-![](./assets/layout.png)
+![](./frontend/assets/layout.png)
 
 ##### Dropdown of personal file
-![](./assets/personal.png)
+![](./frontend/assets/personal.png)
 
 ### 3. Manage account infomation
 
 ##### See basic files
-![](./assets/basic.png)
+![](./frontend/assets/basic.png)
 
 ##### Change avatar
-![](./assets/changeAvatar.png)
+![](./frontend/assets/changeAvatar.png)
 
 ##### Change password
-![](./assets/changePassword.png)
+![](./frontend/assets/changePassword.png)
 
 ### 4. Category Management
-![](./assets/category.png)
+![](./frontend/assets/category.png)
 
 ##### Add new category
-![](./assets/addCate.png)
+![](./frontend/assets/addCate.png)
 
 ### 5. Article Management
-![](./assets/article.png)
+![](./frontend/assets/article.png)
 
 ##### Add new article
-![](./assets/addArt.png)
+![](./frontend/assets/addArt.png)
 
 ##### Search according to category and publish status
-![](./assets/artCate.png)
-![](./assets/pubStatus.png)
+![](./frontend/assets/artCate.png)
+![](./frontend/assets/pubStatus.png)
 ##### Paginator
-![](./assets/paginator.png)
+![](./frontend/assets/paginator.png)
 
 
 
