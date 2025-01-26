@@ -2,12 +2,13 @@
 // 导入 mysql 模块
 const mysql = require('mysql2')
 
+require('dotenv').config()
 // 创建数据库连接对象
 const db = mysql.createPool({
-    host: '192.168.64.9', // 连接ububtu服务器上的mysql
-    user: 'user1',
-    password: 'Mima123$',
-    database: 'my_db_01'
+    host: process.env.DB_HOST, // 连接ububtu服务器上的mysql
+    user: process.env.DB_USER,
+    password: process.env.DB_PASSWORD,
+    database: process.env.DB_DATABASE
 })
 
 // 向外共享 db 数据库连接对象
